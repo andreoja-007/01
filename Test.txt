@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Salon AO</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-sans text-gray-800">
+
+  <!-- Header -->
+  <header class="flex justify-between items-center px-8 py-4 shadow-md bg-white sticky top-0 z-50">
+    <div class="text-2xl font-bold text-indigo-600">Salon AO</div>
+    <nav class="space-x-6">
+      <a href="#" class="hover:text-indigo-600">Avaleht</a>
+      <a href="#funktsioonid" class="hover:text-indigo-600">Funktsioonid</a>
+      <a href="#hinnad" class="hover:text-indigo-600">Hinnad</a>
+      <a href="#kontakt" class="hover:text-indigo-600">Kontakt</a>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="h-screen flex flex-col justify-center items-center text-center bg-gradient-to-r from-indigo-100 to-purple-100 px-6">
+    <h1 class="text-5xl md:text-6xl font-bold text-indigo-700 mb-6">Lihtne broneerimissüsteem sinu salongile</h1>
+    <p class="text-lg md:text-xl mb-8 text-gray-600">Halda kliente, broneeringuid ja makseid ühes kohas.</p>
+    <a href="#hinnad" class="px-8 py-4 bg-indigo-600 text-white rounded-2xl shadow hover:bg-indigo-700 transition">Alusta tasuta</a>
+  </section>
+
+  <!-- Funktsioonid -->
+  <section id="funktsioonid" class="py-20 px-6 bg-white">
+    <h2 class="text-3xl font-bold text-center mb-12 text-indigo-700">Peamised funktsioonid</h2>
+    <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+      <div class="p-6 bg-gray-50 rounded-2xl shadow hover:shadow-lg transition">
+        <h3 class="text-xl font-semibold mb-3">Broneeringute kalender</h3>
+        <p>Lihtne ülevaade kõigist klientide broneeringutest ja töötajate graafikutest.</p>
+      </div>
+      <div class="p-6 bg-gray-50 rounded-2xl shadow hover:shadow-lg transition">
+        <h3 class="text-xl font-semibold mb-3">Kliendihaldus</h3>
+        <p>Salvesta klientide andmeid, ajalugu ja märkmeid ühes kohas.</p>
+      </div>
+      <div class="p-6 bg-gray-50 rounded-2xl shadow hover:shadow-lg transition">
+        <h3 class="text-xl font-semibold mb-3">SMS meeldetuletused</h3>
+        <p>Automaatne teavitus, et kliendid oma aega ei unustaks.</p>
+      </div>
+      <div class="p-6 bg-gray-50 rounded-2xl shadow hover:shadow-lg transition">
+        <h3 class="text-xl font-semibold mb-3">Raportid & Arved</h3>
+        <p>Analüüsi müüki, genereeri arveid ja jälgi statistikat.</p>
+      </div>
+      <div class="p-6 bg-gray-50 rounded-2xl shadow hover:shadow-lg transition">
+        <h3 class="text-xl font-semibold mb-3">Laohaldus</h3>
+        <p>Hoia silm peal toodete laoseisul ja müügil.</p>
+      </div>
+      <div class="p-6 bg-gray-50 rounded-2xl shadow hover:shadow-lg transition">
+        <h3 class="text-xl font-semibold mb-3">Kinkekaardid</h3>
+        <p>Müü ja halda digitaalseid kinkekaarte.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Hinnaplaanid -->
+  <section id="hinnad" class="py-20 px-6 bg-gray-50">
+    <h2 class="text-3xl font-bold text-center mb-12 text-indigo-700">Hinnaplaanid</h2>
+    <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+      <div class="p-8 bg-white rounded-2xl shadow hover:shadow-lg transition text-center">
+        <h3 class="text-xl font-semibold mb-4">Starter</h3>
+        <p class="text-4xl font-bold text-indigo-600 mb-6">19€<span class="text-lg font-normal">/kuu</span></p>
+        <ul class="mb-6 space-y-2 text-gray-600">
+          <li>Kalender</li>
+          <li>Kliendihaldus</li>
+        </ul>
+        <a href="#kontakt" class="px-6 py-3 bg-indigo-600 text-white rounded-xl hover:bg-indigo-700 transition">Alusta</a>
+      </div>
+      <div class="p-8 bg-white rounded-2xl shadow-lg border-2 border-indigo-600 text-center">
+        <h3 class="text-xl font-semibold mb-4">Pro</h3>
+        <p class="text-4xl font-bold text-indigo-600 mb-6">49€<span class="text-lg font-normal">/kuu</span></p>
+        <ul class="mb-6 space-y-2 text-gray-600">
+          <li>Kalender</li>
+          <li>Kliendihaldus</li>
+          <li>SMS meeldetuletused</li>
+          <li>Raportid & Arved</li>
+        </ul>
+        <a href="#kontakt" class="px-6 py-3 bg-indigo-600 text-white rounded-xl hover:bg-indigo-700 transition">Alusta</a>
+      </div>
+      <div class="p-8 bg-white rounded-2xl shadow hover:shadow-lg transition text-center">
+        <h3 class="text-xl font-semibold mb-4">Premium</h3>
+        <p class="text-4xl font-bold text-indigo-600 mb-6">99€<span class="text-lg font-normal">/kuu</span></p>
+        <ul class="mb-6 space-y-2 text-gray-600">
+          <li>Kõik Pro funktsioonid</li>
+          <li>Laohaldus</li>
+          <li>Kinkekaardid</li>
+        </ul>
+        <a href="#kontakt" class="px-6 py-3 bg-indigo-600 text-white rounded-xl hover:bg-indigo-700 transition">Alusta</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Kontakt -->
+  <section id="kontakt" class="py-20 px-6 bg-white">
+    <h2 class="text-3xl font-bold text-center mb-12 text-indigo-700">Võta ühendust</h2>
+    <form id="contactForm" class="max-w-xl mx-auto space-y-4">
+      <input type="text" id="name" placeholder="Nimi" class="w-full p-3 border rounded-lg" required>
+      <input type="email" id="email" placeholder="E-post" class="w-full p-3 border rounded-lg" required>
+      <textarea id="message" placeholder="Sõnum" rows="4" class="w-full p-3 border rounded-lg"></textarea>
+      <button type="submit" class="w-full px-6 py-3 bg-indigo-600 text-white rounded-xl hover:bg-indigo-700 transition">Saada</button>
+    </form>
+    <p id="formMessage" class="text-center mt-4 text-green-600 hidden">Aitäh! Sinu sõnum on saadetud.</p>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-6 text-center bg-gray-100 text-gray-600">
+    © 2025 Salon AO. Kõik õigused kaitstud.
+  </footer>
+
+  <!-- JavaScript -->
+  <script>
+    document.getElementById("contactForm").addEventListener("submit", function(e) {
+      e.preventDefault();
+      document.getElementById("formMessage").classList.remove("hidden");
+      this.reset();
+    });
+  </script>
+
+</body>
+</html>
